@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Greedy Snake</title>
+     <meta charset="utf-8">
+     <link href="snake.css" rel="stylesheet" type="text/css">
+     <script type="text/javascript" src="jquery.js"></script>
+     <script type="text/javascript" src="snake.js"></script>
+  </head>
+<body>
+  <div id="game">
+    <div id="gameUI">  
+       <div id="gameIntro">  
+         <h1>Greedy snake</h1>  
+            <p>This is an DIY Game.</p>  
+            <p><a id="gamePlay" class="button">Play</a></p>  
+       </div> 
+       <div id="gameComplete" style="display:none">  
+           <h1>Game over!</h1>  
+           <p>You got <span class="gameScore"></span> scores.</p>  
+           <p><a id="gameReset" class="button">Play again</a></p>  
+       </div>
+    </div>
+    <canvas id="canvas" width="600px" height="500px">
+    </canvas>  
+  </div>
+</body>
+</html>
